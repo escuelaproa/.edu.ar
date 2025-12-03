@@ -101,7 +101,7 @@ img{background-color:#73a6e9 ;
 .background.section1 {
     position: relative;
     height: 100vh;
-    background: url("fondo.jpg") center/cover no-repeat;
+    background: url("proalugar.jpg") center/cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,6 +221,17 @@ h3 {
     color:  #000000;
 }
 
+.video {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
 
 /* ================================
     CARRUSEL
@@ -330,6 +341,7 @@ footer img {
 footer p {
     margin: 5px 0;
 }
+
 
 
 
