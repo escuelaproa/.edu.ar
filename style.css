@@ -341,6 +341,84 @@ footer img {
 footer p {
     margin: 5px 0;
 }
+/* ================================
+   RESPONSIVE PARA CELULARES
+================================ */
+@media (max-width: 768px) {
+
+    /* Contenedor general */
+    .contenedor {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    /* Ajuste de la caja */
+    .caja {
+        padding: 5px;
+    }
+
+    /* VIDEO RESPONSIVO */
+    .video {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .video video {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Fondo de la sección */
+    .background.section1 {
+        height: 60vh; /* evita que se corte en pantallas pequeñas */
+    }
+
+    .logo-container img {
+        width: 140px;  /* más chico para celulares */
+    }
+
+    /* Menú lateral */
+    #menu ul {
+        width: 180px;
+    }
+
+    /* Contenido principal */
+    .contenido,
+    #centro-section,
+    .compromisos {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    /* Galería de proyectos */
+    .galeria {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .imagen img {
+        height: 160px;
+    }
+}
+
+/* Extra pequeño (celulares muy chicos) */
+@media (max-width: 480px) {
+    .logo-container img {
+        width: 120px;
+    }
+
+    .video video {
+        border-radius: 8px;
+    }
+
+    .imagen img {
+        height: 140px;
+    }
+}
+
+
 
 
 
